@@ -139,3 +139,7 @@ AUTHENTICATION_BACKENDS = [
     'signup.backends.EmailBackend',
     'django.contrib.auth.backends.ModelBackend',
 ]
+
+CSRF_TRUSTED_ORIGINS = [
+"https://deconnect-production.up.railway.app"
+]
